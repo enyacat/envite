@@ -1,7 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Landing from "./Components/Landing"
+import Landing from "./Components/Landing";
 import Create from './Components/Create';
+import Event from './Components/Event';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
             <Create />
           </Route>
           <Route path="/event">
-
+            <Event />
           </Route>
         </Switch>
 
