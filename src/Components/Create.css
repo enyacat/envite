@@ -1,8 +1,10 @@
-.main {
+.create {
     width: 375px;
     height: 640px;
     position: relative;
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(51,170,255,1) 100%);
+    background: radial-gradient(circle, 
+    rgb(242, 242, 242) 0%, 
+    rgb(51, 170, 255) 100%);
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -59,61 +61,40 @@
     color: #FFFFFF;
 }
 
-.create-btn {
+.next-btn {
     position: absolute;
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(51,170,255,1) 100%); */
     left: 20.53%;
     right: 20.53%;
-    top: 46.37%;
+    top: 90%;
     bottom: 47.6%;
     width: 221px;
     height: 49px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-
-.icon-group {
-    position: absolute;
-    width: 379px;
-    height: 309px;
-    left: 7px;
-    top: 336px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.next-btn a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+    color: #FFFFFF;
 }
 
-.left-img {
+.next-btn-icon {
+    /* Fill 1 */
     position: absolute;
-    width: 96px;
-    height: 171px;
-    left: 16px;
-    top: 392px;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 47.85%;
+    height: 2rem;
+    width: 2rem;
+    color: #F2F2F2;
+    background: transparent;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-.middle-img {
-    position: absolute;
-    width: 136px;
-    height: 242px;
-    left: 119px;
-    top: 354px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 12px;
-}
-.right-img {
-    position: absolute;
-    width: 96px;
-    height: 171px;
-    left: 262px;
-    top: 392px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
 }
