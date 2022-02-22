@@ -1,0 +1,21 @@
+.main {
+    width: 375px;
+    height: 640px;
+    position: relative;
+}
+
+.envited {
+    position: absolute;
+    left: 11.85%;
+    right: 55.78%;
+    top: 13.33%;
+    bottom: 16.67%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 21px;
+    /* identical to box height, or 84% */
+    letter-spacing: -0.32px;
+    color: #FFFFFF;
+}
