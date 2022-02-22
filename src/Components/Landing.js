@@ -1,4 +1,5 @@
 import "./Landing.css"
+import { Link } from 'react-router-dom'
 
 
 export default function Landing() {
@@ -18,7 +19,7 @@ export default function Landing() {
             </div>
             <div className="create-btn" style={{
                 backgroundImage: `url("/images/Create\ event\ button.png")`
-            }}></div>
+            }}><Link className="create-btn" to="/create"></Link></div>
             <div className="lower-content" >
                 <div className="icon-group" style={{
                     backgroundImage: `url("images/Social Media icons.png")`
