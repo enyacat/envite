@@ -2,20 +2,117 @@
     width: 375px;
     height: 640px;
     position: relative;
-}
-
-.envited {
-    position: absolute;
-    left: 11.85%;
-    right: 55.78%;
-    top: 13.33%;
-    bottom: 16.67%;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 21px;
-    /* identical to box height, or 84% */
+    color: #FFFFFF;
+    letter-spacing: -0.32px;
+    overflow: hidden;
+}
+
+.nav-bar {
+    position: absolute;
+    width: 346px;
+    height: 30px;
+    left: 14px;
+    top: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    position: absolute;
+    width: 335px;
+    height: 60px;
+    left: 20px;
+    top: 105px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 30px;
+    /* or 94% */
+    display: flex;
+    align-items: center;
+    text-align: center;
     letter-spacing: -0.32px;
     color: #FFFFFF;
+}
+
+.sub-title {
+    position: absolute;
+    width: 295px;
+    height: 40px;
+    left: 40px;
+    top: 200px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.32px;
+    color: #FFFFFF;
+}
+
+.create-btn {
+    position: absolute;
+    left: 20.53%;
+    right: 20.53%;
+    top: 46.37%;
+    bottom: 47.6%;
+    width: 221px;
+    height: 49px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.icon-group {
+    position: absolute;
+    width: 379px;
+    height: 309px;
+    left: 7px;
+    top: 336px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.left-img {
+    position: absolute;
+    width: 96px;
+    height: 171px;
+    left: 16px;
+    top: 392px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.middle-img {
+    position: absolute;
+    width: 136px;
+    height: 242px;
+    left: 119px;
+    top: 354px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.right-img {
+    position: absolute;
+    width: 96px;
+    height: 171px;
+    left: 262px;
+    top: 392px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
